@@ -1,0 +1,4 @@
+import qrcode as qr
+img =  qr.make("https://anuragsinghok.medium.com/")
+img.save("anurag_medium.png")
+print("QR code generated and saved as anurag_medium.png")
